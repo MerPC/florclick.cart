@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 class HomePage:
     FIRST_PRODUCT_XPATH = '//*[@id="inicio"]/section[2]/div/div[2]/div/div[1]'
     SECOND_PRODUCT_XPATH = '//*[@id="inicio"]/section[2]/div/div[2]/div/div[2]'
-    CART_BUTTON_XPATH = '/html/body/div[2]/header/div/div/div[4]/div/nav/ul/li[12]/div/a/i'
+    CART_BUTTON_XPATH = '/html/body/div[1]/header/div/div/div[3]/div/nav/ul/li[12]/div/a/i'
 
     def __init__(self, driver, test_context_obj):
         self.driver = driver
